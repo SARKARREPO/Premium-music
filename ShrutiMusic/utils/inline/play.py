@@ -10,7 +10,6 @@ PE = {
     "play": "5208607440878197365",
     "pause": "5449885191600366307",
     "skip": "6311812139233316820",
-    "stop": "6271674836628541366",
     "replay": "5904754092609114390",
 }
 
@@ -81,7 +80,6 @@ def stream_markup_timer(_, chat_id, played, dur):
             btn("", callback_data=f"ADMIN Pause|{chat_id}", pe_name="pause"),
             btn("", callback_data=f"ADMIN Replay|{chat_id}", pe_name="replay"),
             btn("", callback_data=f"ADMIN Skip|{chat_id}", pe_name="skip"),
-            btn("", callback_data=f"ADMIN Stop|{chat_id}", pe_name="stop"),
         ],
         [
             btn("sᴜᴘᴘᴏʀᴛ", url=SUPPORT_GROUP, pe_name="support"),
@@ -101,7 +99,6 @@ def stream_markup(_, chat_id):
             btn("", callback_data=f"ADMIN Pause|{chat_id}", pe_name="pause"),
             btn("", callback_data=f"ADMIN Replay|{chat_id}", pe_name="replay"),
             btn("", callback_data=f"ADMIN Skip|{chat_id}", pe_name="skip"),
-            btn("", callback_data=f"ADMIN Stop|{chat_id}", pe_name="stop"),
         ],
         [
             btn(_["CLOSE_BUTTON"], callback_data="close", pe_name="close"),
