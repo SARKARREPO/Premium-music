@@ -12,7 +12,7 @@ async def add_all(_, message: Message):
     command_parts = message.text.split()
     if len(command_parts) != 2:
         await message.reply(
-            "**⚠️ Invalid format.**\nUse: `/gadd @PRAGYA_ROBOT`"
+            "**⚠️ Invalid format.**\nUse: `/gadd @Radha_music_threeBot`"
         )
         return
 
@@ -27,7 +27,7 @@ async def add_all(_, message: Message):
         lol = await message.reply(f"🔄 **Adding {bot_username} in all chats...**")
 
         async for dialog in userbot.get_dialogs():
-            if dialog.chat.id == -1003389276372:
+            if dialog.chat.id == -1002272144703:
                 continue
             try:
                 await userbot.add_chat_members(dialog.chat.id, app_id)
