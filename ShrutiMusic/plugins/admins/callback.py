@@ -93,12 +93,12 @@ async def fork_repo_callback(client, query):
                 [
                     InlineKeyboardButton(
                         "ʏᴀʜᴀ ᴛᴏᴜᴄʜ ᴋʀᴏ",
-                        url="https://t.me/ITZ_ASHUI",
+                        url="https://t.me/SARKAR_DARLING",
                         icon_custom_emoji_id="6129584162992034014",
                     ),
                     InlineKeyboardButton(
                         "ᴅᴇᴘʟᴏʏ ᴋᴇ ʟɪʏᴇ ʏᴀʜᴀ ᴋʀᴏ",
-                        url="https://t.me/SANATANI_BACCHA",
+                        url="https://t.me/SARKAR_DARLING",
                         icon_custom_emoji_id="5416081784641168838",
                     ),
                 ],
