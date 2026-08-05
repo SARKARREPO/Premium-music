@@ -10,9 +10,9 @@ from ShrutiMusic import app
 from ShrutiMusic.utils.database import add_served_chat
 import config
 
-OWNER_ID = 8170572505
-OWNER_USERNAME = "SANATANI_BACCHA"
-OWNER_NAME = "𓆩◕🇭𝐀𝐑𝐑𝐘◕𓆪 =‌𐏓 ⤨⃝🇮🇳™"
+OWNER_ID = 6569008209
+OWNER_USERNAME = "SARKAR_DARLING"
+OWNER_NAME = "SARKAR_DARLING"
 
 _welcomed_chats = set()
 
