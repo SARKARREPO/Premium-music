@@ -20,7 +20,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🌱ƨσʋяcɛ🌱", url=f"https://t.me/SANATANI_BACCHA")
+                        "🌱ƨσʋяcɛ🌱", url=f"https://t.me/SARKAR_DARLING")
                 ]
             ]
         ),
@@ -38,7 +38,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🌱ƨσʋяcɛ🌱", url=f"https://t.me/SANATANI_BACCHA")
+                        "🌱ƨσʋяcɛ🌱", url=f"https://t.me/SARKAR_DARLING")
                 ]
             ]
         ),
@@ -55,7 +55,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🌱ƨσʋяcɛ🌱", url=f"https://t.me/SANATANI_BACCHA")
+                        "🌱ƨσʋяcɛ🌱", url=f"https://t.me/SARKAR_DARLING")
                 ]
             ]
         ),
@@ -81,7 +81,7 @@ import time
 async def add_all(client, message):
     command_parts = message.text.split(" ")
     if len(command_parts) != 2:
-        await message.reply("**⚠️ ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ ғᴏʀᴍᴀᴛ. ᴘʟᴇᴀsᴇ ᴜsᴇ ʟɪᴋᴇ » `/gadd @PRAGYA_ROBOT`**")
+        await message.reply("**⚠️ ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ ғᴏʀᴍᴀᴛ. ᴘʟᴇᴀsᴇ ᴜsᴇ ʟɪᴋᴇ » `/gadd @NAMEMAKER_ROBOT`**")
         return
     
     bot_username = command_parts[1]
@@ -94,7 +94,7 @@ async def add_all(client, message):
         lol = await message.reply("🔄 **ᴀᴅᴅɪɴɢ ɢɪᴠᴇɴ ʙᴏᴛ ɪɴ ᴀʟʟ ᴄʜᴀᴛs!**")
         
         async for dialog in userbot.get_dialogs():
-            if dialog.chat.id == -1003389276372:
+            if dialog.chat.id == -1002272144703:
                 continue
             try:
                 await userbot.add_chat_members(dialog.chat.id, app_id)
